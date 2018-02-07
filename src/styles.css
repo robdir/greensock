@@ -37,7 +37,7 @@ body{
     height: 10em;
     width: 30em;
     border-radius: 2px;
-    background: linear-gradient(to bottom right, rgb(101, 145, 228), darkblue);
+    background: linear-gradient(to bottom right, rgb(167, 178, 197), rgb(15, 15, 27));
     -moz-box-shadow:    3px 3px 5px 6px #ccc;
     -webkit-box-shadow: 3px 3px 5px 6px #ccc;
     box-shadow:         3px 3px 5px 6px #ccc;
@@ -49,8 +49,8 @@ body{
 }
 
 #adsun {
-    max-height: 10em;
-    max-width: 10em;
+    max-height: 9.5em;
+    max-width: 9.5em;
     padding: 1px;
 }
 
@@ -71,6 +71,18 @@ body{
 #imgtag{
     text-align: center;
     margin-top: 20em;
+    color: whitesmoke;
+}
+
+#anitext{
+    text-align: center;
+    color: whitesmoke;
+    display: none;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 2em;
+    overflow: hidden;
 }
 
 #trippy {

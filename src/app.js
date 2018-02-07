@@ -31,7 +31,8 @@ animate.onclick = function() {
     var sun = document.getElementById("adsun")
     TweenLite.to(sun, 2, {directionalRotation:"360_cw"})
     var text = document.getElementById("text")
-    TweenLite.to(text, 2, { bottom: "50px", delay: 2})
+    TweenLite.to(text, 1, { bottom: "40px", delay: 1})
+    var fade = document.getElementById("anitext")
     }
 }
 
