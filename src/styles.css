@@ -1,18 +1,34 @@
 
 body{
-    background-color: darkgoldenrod;
+    background-color: whitesmoke;
 }
 
 #logo {
     position: relative;
-    height: 40em;
-    width: 30em;
+    height: 60px;
+    width: 60px;
 }
 
-#demo {
+/* #demo {
     position: relative;
-    width: 250px;
-    height: 250px;
+    width: 60em;
+    height: 60em;
     background-color: #333;
     padding: 8px;
+} */
+
+#easeWrapper {
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    border-right: 1px dashed #CCC;
+    border-left: 1px dashed #CCC;
+}
+
+#adcontainer {
+    position: relative;
+    margin-top: 20em;
+    height: 10em;
+    width: 30em;
+    background-color: blue;
 }
