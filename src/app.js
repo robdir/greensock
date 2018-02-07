@@ -30,5 +30,12 @@ animate = document.getElementById("animate")
 animate.onclick = function() {
     var sun = document.getElementById("adsun")
     TweenLite.to(sun, 2, {directionalRotation:"360_cw"})
+    var text = document.getElementById("text")
+    TweenLite.to(text, 2, { bottom: "50px", delay: 2})
     }
+}
+
+window.onload = function() {
+    trip = document.getElementById("trippy")
+    
 }
