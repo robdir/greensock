@@ -23,3 +23,9 @@ window.onload = function() {
         tween.restart();
     }
 }
+
+window.onload = function() {
+animate = document.getElementById("animate")
+animate.onclick = function() {
+    }
+}

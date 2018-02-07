@@ -36,13 +36,16 @@ body{
     margin-top: 10em;
     height: 10em;
     width: 30em;
+    border-radius: 2px;
     background: linear-gradient(to bottom right, rgb(101, 145, 228), darkblue);
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
 }
 
 #adimg {
     /* flex child styling */
     order: 1;
-    border-right: 1px black dashed;
 }
 
 #adsun {
