@@ -35,7 +35,7 @@ animate.onclick = function() {
     }
 }
 
-window.onload = function() {
-    trip = document.getElementById("trippy")
-    
-}
+// window.onload = function() {
+//     trip = document.getElementById("trippy")
+//     TweenMax.from(trip, 2, {directionalRotation:"360_cw", repeat:-1})
+// }
