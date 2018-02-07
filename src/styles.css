@@ -1,4 +1,11 @@
-img {
-    margin: auto;
-    text-align: center
+img.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40em;
+    width: 30em;
+}
+
+html {
+    background-color: darkgoldenrod
 }
